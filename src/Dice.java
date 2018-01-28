@@ -10,7 +10,7 @@ public class Dice {
      * @param sides Number of sides.
      */
     public Dice(int sides) {
-        this.sides = sides;
+        setSides(sides);
         rand = new Random();
     }
 
@@ -52,7 +52,6 @@ public class Dice {
     }
 
     /**
-     *
      * @param sides Number of sides. Must the 1 or greater.
      */
     public void setSides(int sides) {
