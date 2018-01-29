@@ -55,6 +55,6 @@ public class Dice {
      * @param sides Number of sides. Must the 1 or greater.
      */
     public void setSides(int sides) {
-        this.sides = Math.min(1, sides);
+        this.sides = Math.max(1, sides);
     }
 }
